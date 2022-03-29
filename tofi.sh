@@ -32,7 +32,7 @@ echo ""
 echo -e $white "                          Please Press Enter To Start  "
 read Enter
 clear
-figlet " Welcome MR.Denon " | lolcat
+figlet " Welcome MR.Demon & Tofi " | lolcat
 echo -e $red "                  $purple<<<$white The Script By: Ahmed Wael$purple >>>"
 echo ''
 echo -e $white " Follow me :"
@@ -1011,7 +1011,7 @@ fi
 if [ $hash = 0 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 ###############################
