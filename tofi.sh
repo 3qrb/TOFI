@@ -27,17 +27,19 @@ echo  "                              ─────██░░██───�
 echo  "                              ─────██████─────██████████████─██████─────────██████████─           ";
 echo  "                              ─────────────────────────────────────────────────────────           ";
 echo ""
+
+echo ""
 echo -e $white "                          Please Press Enter To Start  "
 read Enter
 clear
-figlet " Welcome Demon " | lolcat
+figlet " Welcome MR.Denon " | lolcat
 echo -e $red "                  $purple<<<$white The Script By: Ahmed Wael$purple >>>"
 echo ''
 echo -e $white " Follow me :"
 echo            "  ^^^^^^^^^^^"
-echo -e $blue " instgram: 1PJT            |            Snapchat: awa3l"
+echo -e $blue " instgram: 1PJT           |            SnapChat: awa3l"
 echo            "  -----------------------                        -----------------------"
-echo -e $blue " Github: 3qrb              |          Egypt Cyber Army    |   
+echo -e $blue " Github: 3qrb              |            TeAm: Egypt Cyber Army "
 echo            "  -----------------------                        -----------------------"
 echo -e $white "         }--------------------------------------------------{"
 echo ''
