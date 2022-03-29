@@ -66,12 +66,12 @@ then
 clear
 echo ""
 echo -e $red
-echo "  _  __          _      _____   _____                  _      ";
-echo " | |/ /    /\   | |    |_   _| |  __ \                (_)     ";
-echo " | ' /    /  \  | |      | |   | |__) |___ _ __   __ _ _ _ __ ";
-echo " |  <    / /\ \ | |      | |   |  _  // _ \ '_ \ / _\` | | '__|";
-echo " | . \  / ____ \| |____ _| |_  | | \ \  __/ |_) | (_| | | |   ";
-echo " |_|\_\/_/    \_\______|_____| |_|  \_\___| .__/ \__,_|_|_|   ";
+echo "  _  _          _      __   ___                  _      ";
+echo " | |/ /    /\   | |    |_   | |  _ \                (_)     ";
+echo " | ' /    /  \  | |      | |   | |_) |_ _ _   _ _ _ _ _ ";
+echo " |  <    / /\ \ | |      | |   |  _  // _ \ '_ \ / \` | | '_|";
+echo " | . \  / __ \| |__ | |  | | \ \  _/ |) | (_| | | |   ";
+echo " ||\\//    \\___|_| ||  \_\__| ./ \,|||   ";
 echo "                                          | |                 ";
 echo "                                          |_|                 ";
 echo -e $white
@@ -88,7 +88,7 @@ read -p "Choose the problem number :" Update
 if [ $Update = 8 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $Update = 1 ]
 then
@@ -237,7 +237,7 @@ read -p "Entre The Number: " name
 if [ $name = 99 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $name = 1 ]
 then
@@ -281,7 +281,7 @@ fi
 if [ $phone = 3 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $name = 2 ]
@@ -310,7 +310,7 @@ read MALTEGO
 if [ $MALTEGO = 00 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $MALTEGO = 1 ]
 then
@@ -331,7 +331,7 @@ fi
 if [ $MALTEGO = 3 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $name = 3 ]
@@ -377,7 +377,7 @@ fi
 if [ $WHATWEB = 3 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $name = 4 ]
@@ -435,7 +435,7 @@ fi
 if [ $DMITRY = 4 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $name = 5 ]
@@ -444,10 +444,10 @@ clear
 echo -e $red
 echo ""
 echo "                                                                         ";
-echo " _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ ";
-echo "|_   _|  |  |   __|  |  |  _  | __  |  |  |   __|   __|_   _|   __| __  |";
-echo "  | | |     |   __|     |     |    -|  |  |   __|__   | | | |   __|    -|";
-echo "  |_| |__|__|_____|__|__|__|__|__|__|\___/|_____|_____| |_| |_____|__|__|";
+echo " __ __ __ __ __ __ __ __ __ __ __ __ ";
+echo "|_   |  |  |   _|  |  |  _  | _  |  |  |   _|   _|   |   _| __  |";
+echo "  | | |     |   _|     |     |    -|  |  |   _|_   | | | |   _|    -|";
+echo "  || |||_|||||||\_/|_|_| || |__||_|";
 echo "                                                                         ";
 echo -e $red
 echo ""
@@ -479,7 +479,7 @@ fi
 if [ $THEHARVESTER = 3 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $name = 6 ]
@@ -523,7 +523,7 @@ fi
 if [ $NIKTO = 3 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $name = 7 ]
@@ -567,7 +567,7 @@ fi
 if [ $GOLISMERO = 3 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $name = 9 ]
@@ -635,7 +635,7 @@ fi
 if [ $WAPITI = 3 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $name = 11 ]
@@ -675,7 +675,7 @@ fi
 if [ $HTTRACK = 3 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $name = 8 ]
@@ -743,13 +743,13 @@ fi
 if [ "$scan" = 4 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 if [ $NMAP = 3 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 fi
@@ -782,7 +782,7 @@ echo "My public IP address is: $ip"
 echo
 echo -e $blue
 read -p "Preas Any Kay To The Back" enter
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $ipp = 2 ]
 then
@@ -792,7 +792,7 @@ curl http://ip-api.com/$ip
 echo
 echo -e $blue
 read -p "Preas Any Kay To The Back" enter
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $ipp = 3 ]
 then
@@ -802,7 +802,7 @@ curl https://api.hackertarget.com/mtr/?q=$site
 echo
 echo -e $blue
 read -p "Preas Any Kay To The Back" enter
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $ipp = 4 ]
 then
@@ -812,7 +812,7 @@ curl http://api.hackertarget.com/nmap/?q=$port
 echo
 echo -e $blue
 read -p "Preas Any Kay To The Back" enter
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $ipp = 5 ]
 then
@@ -823,7 +823,7 @@ echo "The host is: $s"
 echo
 echo -e $blue
 read -p "Preas Any Kay To The Back" enter
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $ipp = 6 ]
 then
@@ -836,7 +836,7 @@ echo -e $blue
 echo
 echo
 read -p "Preas Any Kay To The Back" enter
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $ipp = 7 ]
 then
@@ -847,12 +847,12 @@ curl https://api.hackertarget.com/pagelinks/?q=$df
 echo
 echo -e $blue
 read -p "Preas Any Kay To The Back" enter
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $ipp = 0 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 fi
 ######################################
@@ -886,7 +886,7 @@ read -p "Enter the Number: " payload
 if [ $payload = 0 ]
 then
 clear
-bash M2.sh
+bash TOFI.sh
 fi
 if [ $payload = 1 ]
 then
